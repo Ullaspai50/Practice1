@@ -1,0 +1,371 @@
+
+Linker Version 8.7.7.190806
+Input Object File: d:\projects\bldc fan\remote fan final to production\global(longway)1\REMOTE FAN.OBJ
+Input Object File: d:\projects\bldc fan\remote fan final to production\global(longway)1\STARTUP1_L.OBJ
+Input Object File: d:\projects\bldc fan\remote fan final to production\global(longway)1\IRREMOTE.OBJ
+Input Object File: d:\projects\bldc fan\remote fan final to production\global(longway)1\EE_MEM.OBJ
+Input Object File: d:\projects\bldc fan\remote fan final to production\global(longway)1\DEBUG.OBJ
+Input Object File: d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ
+
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrsc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0000h    0001h      CODE               @code (d:\projects\bldc fan\remote fan final to production\global(longway)1\REMOTE FAN.OBJ)
+     00h     0001h     0003h    0003h      CODE               _main (d:\projects\bldc fan\remote fan final to production\global(longway)1\REMOTE FAN.OBJ)
+     00h     0004h     0007h    0004h      CODE               @INT0_ISR_code (d:\projects\bldc fan\remote fan final to production\global(longway)1\REMOTE FAN.OBJ)
+     00h     0008h     000dh    0006h      CODE               _timer_i0 (d:\projects\bldc fan\remote fan final to production\global(longway)1\REMOTE FAN.OBJ)
+     00h     0010h     0013h    0004h      CODE               @timer_i0_code (d:\projects\bldc fan\remote fan final to production\global(longway)1\REMOTE FAN.OBJ)
+     00h     0014h     0018h    0005h      CODE               _SysInit (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     0019h     001bh    0003h      CODE               _CROM2PROM (CROM2PROM)
+     00h     001ch     001fh    0004h      CODE               @timer_128mSec_code (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     0024h     0027h    0004h      CODE               @INT1_ISR_code (d:\projects\bldc fan\remote fan final to production\global(longway)1\IRREMOTE.OBJ)
+     00h     0028h     0048h    0021h      CODE               @start (d:\projects\bldc fan\remote fan final to production\global(longway)1\REMOTE FAN.OBJ)
+     00h     0049h     0052h    000ah      CODE               @ROMDATA_BASE (d:\projects\bldc fan\remote fan final to production\global(longway)1\STARTUP1_L.OBJ)
+     00h     0053h     00a1h    004fh      CODE               _INT0_ISR (d:\projects\bldc fan\remote fan final to production\global(longway)1\REMOTE FAN.OBJ)
+     00h     00a2h     00fah    0059h      CODE               _sysInit (d:\projects\bldc fan\remote fan final to production\global(longway)1\REMOTE FAN.OBJ)
+     00h     00fbh     0161h    0067h      CODE               _INT1_ISR (d:\projects\bldc fan\remote fan final to production\global(longway)1\IRREMOTE.OBJ)
+     00h     0162h     01bfh    005eh      CODE               _getIrRemotedata (d:\projects\bldc fan\remote fan final to production\global(longway)1\IRREMOTE.OBJ)
+     00h     01c0h     0316h    0157h      CODE               _irKeyProcess (d:\projects\bldc fan\remote fan final to production\global(longway)1\IRREMOTE.OBJ)
+     00h     0317h     032ch    0016h      CODE               _EEReadChar (d:\projects\bldc fan\remote fan final to production\global(longway)1\EE_MEM.OBJ)
+     00h     032dh     0349h    001dh      CODE               _EEWriteChar (d:\projects\bldc fan\remote fan final to production\global(longway)1\EE_MEM.OBJ)
+     00h     034ah     035eh    0015h      CODE               _turnOn_triac (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     035fh     037fh    0021h      CODE               _turnoff_triac (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     0380h     03dfh    0060h      CODE               _checkSpeedChange (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     03e0h     03edh    000eh      CODE               _timer_128mSec (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     03eeh     03fbh    000eh      CODE               _secDownCounter (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     03fch     0409h    000eh      CODE               __250msecDownCounter (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     040ah     0568h    015fh      CODE               _app (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     0569h     0576h    000eh      CODE               _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0577h     058fh    0019h      CODE               _builtin_holtek_divmodqi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0080h     0081h    0002h      DATA     1         @BITDATASEC (d:\projects\bldc fan\remote fan final to production\global(longway)1\STARTUP1_L.OBJ)
+     00h     0082h     0082h    0001h      DATA     129       @data_ra (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0083h     0083h    0001h      DATA     81        @data_rb (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0084h     0084h    0001h      DATA     54        @data_rc (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0085h     0085h    0001h      DATA     24        @data_rd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0086h     0086h    0001h      DATA     15        @data_re (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0087h     0087h    0001h      DATA     12        @data_rf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0088h     0088h    0001h      DATA     12        @data_rg (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0089h     0089h    0001h      DATA     4         @data_rh (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     008ah     008ah    0001h      DATA     2         @data_r104 (isr:ra~rh)
+     00h     008bh     008bh    0001h      DATA     2         @data_r204 (isr:ra~rh)
+     00h     008ch     008ch    0001h      DATA     3         @data_ra04 (isr:ra~rh)
+     00h     008dh     008dh    0001h      DATA     2         @data_r110 (isr:ra~rh)
+     00h     008eh     008eh    0001h      DATA     2         @data_r210 (isr:ra~rh)
+     00h     008fh     008fh    0001h      DATA     2         @data_r124 (isr:ra~rh)
+     00h     0090h     0090h    0001h      DATA     2         @data_r224 (isr:ra~rh)
+     00h     0091h     0091h    0001h      DATA     8         @data_rb24 (isr:ra~rh)
+     00h     0092h     0092h    0001h      DATA     7         @data_rc24 (isr:ra~rh)
+     00h     0093h     0093h    0001h      DATA     6         @data_ra24 (isr:ra~rh)
+     00h     0094h     0094h    0001h      DATA     2         @data_r11c (isr:ra~rh)
+     00h     0095h     0095h    0001h      DATA     2         @data_r21c (isr:ra~rh)
+     00h     0096h     0096h    0001h      DATA     3         @data_ra1c (isr:ra~rh)
+     00h     009dh     009dh    0001h      DATA     10        @HCCINIT_TRIAC_INT (d:\projects\bldc fan\remote fan final to production\global(longway)1\REMOTE FAN.OBJ)
+     00h     009eh     009eh    0001h      DATA     7         @HCCINIT_irDataStage (d:\projects\bldc fan\remote fan final to production\global(longway)1\IRREMOTE.OBJ)
+     00h     009fh     009fh    0001h      DATA     5         @HCCINIT_No_zero_cross_counter (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     00a0h     00a0h    0001h      DATA     3         @HCCINIT_irIndex (d:\projects\bldc fan\remote fan final to production\global(longway)1\IRREMOTE.OBJ)
+     00h     00a1h     00a1h    0001h      DATA     3         @HCCINIT_irDataIndex (d:\projects\bldc fan\remote fan final to production\global(longway)1\IRREMOTE.OBJ)
+     00h     00a2h     00a2h    0001h      DATA     3         @HCCINIT_secCntr (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     00a3h     00a3h    0001h      DATA     3         @HCCINIT_counter_128Msec (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     00a4h     00a4h    0001h      DATA     3         @HCCINIT__250msecCntr (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     00a5h     00a8h    0004h      DATA     2         @HCCINIT_irData (d:\projects\bldc fan\remote fan final to production\global(longway)1\IRREMOTE.OBJ)
+     00h     00a9h     00a9h    0001h      DATA     0         @HCCINIT_toggle (d:\projects\bldc fan\remote fan final to production\global(longway)1\IRREMOTE.OBJ)
+     00h     00aah     00aah    0001h      DATA     0         @HCCINIT_tmindex (d:\projects\bldc fan\remote fan final to production\global(longway)1\IRREMOTE.OBJ)
+     00h     00abh     00ach    0002h      DATA     17        @HCCINIT0_FanSpeedValue (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     00adh     00adh    0001h      DATA     17        @HCCINIT0_TriacState (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     00aeh     00aeh    0001h      DATA     13        @HCCINIT0_TriacCheckState (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     00afh     00afh    0001h      DATA     13        @HCCINIT0_gMode (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     00b0h     00b0h    0001h      DATA     12        @HCCINIT0_gDownCounterValue (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     00b1h     00b2h    0002h      DATA     6.5       @HCCINIT0_speed_temp (d:\projects\bldc fan\remote fan final to production\global(longway)1\IRREMOTE.OBJ)
+     00h     00b3h     00b4h    0002h      DATA     6.5       @HCCINIT0_FanSpeedState (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     00b5h     00b6h    0002h      DATA     4.5       @HCCINIT0_TriacTimeoutFlag (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     00b7h     00b8h    0002h      DATA     4         @HCCINIT0_timerCount (d:\projects\bldc fan\remote fan final to production\global(longway)1\IRREMOTE.OBJ)
+     00h     00b9h     00b9h    0001h      DATA     4         @HCCINIT0_TRIAC_3_TIMEOUT_COUNTER (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     00bah     00bah    0001h      DATA     4         @HCCINIT0_TRIAC_2_TIMEOUT_COUNTER (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     00bbh     00bbh    0001h      DATA     4         @HCCINIT0_TRIAC_1_TIMEOUT_COUNTER (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     00bch     00bch    0001h      DATA     3         @HCCINIT0_LED_COUNTER (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     00bdh     00c0h    0004h      DATA     1         @HCCINIT0_keyPressIndiVal (d:\projects\bldc fan\remote fan final to production\global(longway)1\REMOTE FAN.OBJ)
+     00h     00c1h     00c1h    0001h      DATA     2         @data_r324 (isr:ra~rh)
+     00h     00c2h     00c2h    0001h      DATA     2         @data_r424 (isr:ra~rh)
+     01h     0080h     00ffh    0080h      DATA     0         @HCCINIT0_tmArry (d:\projects\bldc fan\remote fan final to production\global(longway)1\IRREMOTE.OBJ)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0097h     0097h    0000h      LOCAL    0         @dummy4 (d:\projects\bldc fan\remote fan final to production\global(longway)1\REMOTE FAN.OBJ)
+     00h     0097h     0097h    0000h      LOCAL    0         _INT0_ISR (d:\projects\bldc fan\remote fan final to production\global(longway)1\REMOTE FAN.OBJ)
+     00h     0097h     0097h    0000h      LOCAL    0         @dummy16 (d:\projects\bldc fan\remote fan final to production\global(longway)1\REMOTE FAN.OBJ)
+     00h     0097h     0097h    0000h      LOCAL    0         _timer_i0 (d:\projects\bldc fan\remote fan final to production\global(longway)1\REMOTE FAN.OBJ)
+     00h     009dh     009dh    0000h      LOCAL    0         @dummy (d:\projects\bldc fan\remote fan final to production\global(longway)1\REMOTE FAN.OBJ)
+     00h     009dh     009dh    0000h      LOCAL    0         _main (d:\projects\bldc fan\remote fan final to production\global(longway)1\REMOTE FAN.OBJ)
+     00h     0097h     0097h    0000h      LOCAL    0         _sysInit (d:\projects\bldc fan\remote fan final to production\global(longway)1\REMOTE FAN.OBJ)
+     00h     009dh     009dh    0000h      LOCAL    0         _app (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     0097h     0097h    0001h      LOCAL    2         _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0097h     0097h    0001h      LOCAL    2         _EEReadChar (d:\projects\bldc fan\remote fan final to production\global(longway)1\EE_MEM.OBJ)
+     00h     0097h     0097h    0000h      LOCAL    0         _SysInit (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     0097h     009bh    0005h      LOCAL    4.6       _builtin_holtek_divmodqi4_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0097h     009ah    0004h      LOCAL    2         _getIrRemotedata (d:\projects\bldc fan\remote fan final to production\global(longway)1\IRREMOTE.OBJ)
+     00h     0097h     0097h    0000h      LOCAL    0         _Crom2Prom (CROM2PROM)
+     00h     0097h     0098h    0002h      LOCAL    6         __250msecDownCounter (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     0097h     0098h    0002h      LOCAL    3         _secDownCounter (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     0099h     009ch    0004h      LOCAL    20        _irKeyProcess (d:\projects\bldc fan\remote fan final to production\global(longway)1\IRREMOTE.OBJ)
+     00h     0097h     0098h    0002h      LOCAL    3.5       _EEWriteChar (d:\projects\bldc fan\remote fan final to production\global(longway)1\EE_MEM.OBJ)
+     00h     0097h     0097h    0000h      LOCAL    0         _checkSpeedChange (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     0097h     0097h    0001h      LOCAL    5         _turnoff_triac (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     0097h     0097h    0001h      LOCAL    5         _turnOn_triac (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     0097h     0097h    0000h      LOCAL    0         @dummy36 (d:\projects\bldc fan\remote fan final to production\global(longway)1\IRREMOTE.OBJ)
+     00h     0097h     0097h    0000h      LOCAL    0         _INT1_ISR (d:\projects\bldc fan\remote fan final to production\global(longway)1\IRREMOTE.OBJ)
+     00h     0097h     0097h    0000h      LOCAL    0         @dummy28 (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+     00h     0097h     0097h    0000h      LOCAL    0         _timer_128mSec (d:\projects\bldc fan\remote fan final to production\global(longway)1\APP.OBJ)
+
+     Public Symbols Information
+     Address            Public by Name
+     001ah              _Crom2Prom
+     0019h              _Crom2PromNext
+     0317h              _EEReadChar
+     032dh              _EEWriteChar
+     00b3h              _FanSpeedState
+     00abh              _FanSpeedValue
+     0053h              _INT0_ISR
+     00fbh              _INT1_ISR
+     00bch              _LED_COUNTER
+     009fh              _No_zero_cross_counter
+     0081h[3]           _SEC_LOOP_FLG
+     0014h              _SysInit
+     00bbh              _TRIAC_1_TIMEOUT_COUNTER
+     00bah              _TRIAC_2_TIMEOUT_COUNTER
+     00b9h              _TRIAC_3_TIMEOUT_COUNTER
+     009dh              _TRIAC_INT
+     00aeh              _TriacCheckState
+     00adh              _TriacState
+     00b5h              _TriacTimeoutFlag
+     0081h[1]           __250MSEC_LOOP_FLG
+     0081h[2]           __250MSEC_TGL_FLG
+     00a4h              __250msecCntr
+     03fch              __250msecDownCounter
+     056eh              __DELAYY0_isr00
+     056dh              __DELAYY1_isr00
+     056ch              __DELAYY2_isr00
+     056bh              __DELAYY3_isr00
+     056ah              __DELAYY4_isr00
+     0569h              __DELAYY5_isr00
+     040ah              _app
+     0577h              _builtin_holtek_udivmodqi4_isr00
+     0380h              _checkSpeedChange
+     00a3h              _counter_128Msec
+     00b0h              _gDownCounterValue
+     00afh              _gMode
+     0162h              _getIrRemotedata
+     0097h              _getIrRemotedata_2
+     00a5h              _irData
+     00a1h              _irDataIndex
+     009eh              _irDataStage
+     0080h[0]           _irDatavalid
+     00a0h              _irIndex
+     01c0h              _irKeyProcess
+     009bh              _irKeyProcess_2
+     00bdh              _keyPressIndiVal
+     0001h              _main
+     0081h[0]           _powerBtn
+     00a2h              _secCntr
+     03eeh              _secDownCounter
+     00b1h              _speed_temp
+     00a2h              _sysInit
+     00b7h              _timerCount
+     03e0h              _timer_128mSec
+     0008h              _timer_i0
+     0180h              _tmArry
+     00aah              _tmindex
+     00a9h              _toggle
+     034ah              _turnOn_triac
+     035fh              _turnoff_triac
+     008ah              r104
+     008dh              r110
+     0094h              r11c
+     008fh              r124
+     008bh              r204
+     008eh              r210
+     0095h              r21c
+     0090h              r224
+     00c1h              r324
+     00c2h              r424
+     0082h              ra
+     008ch              ra04
+     0096h              ra1c
+     0093h              ra24
+     0083h              rb
+     0091h              rb24
+     0084h              rc
+     0092h              rc24
+     0085h              rd
+     0086h              re
+     0087h              rf
+     0088h              rg
+     0089h              rh
+     0048h              startup_value_1
+
+     Address            Public by Value
+     0001h              _main
+     0008h              _timer_i0
+     0014h              _SysInit
+     0019h              _Crom2PromNext
+     001ah              _Crom2Prom
+     0048h              startup_value_1
+     0053h              _INT0_ISR
+     0082h              ra
+     0083h              rb
+     0084h              rc
+     0085h              rd
+     0086h              re
+     0087h              rf
+     0088h              rg
+     0089h              rh
+     008ah              r104
+     008bh              r204
+     008ch              ra04
+     008dh              r110
+     008eh              r210
+     008fh              r124
+     0090h              r224
+     0091h              rb24
+     0092h              rc24
+     0093h              ra24
+     0094h              r11c
+     0095h              r21c
+     0096h              ra1c
+     0097h              _getIrRemotedata_2
+     009bh              _irKeyProcess_2
+     009dh              _TRIAC_INT
+     009eh              _irDataStage
+     009fh              _No_zero_cross_counter
+     00a0h              _irIndex
+     00a1h              _irDataIndex
+     00a2h              _sysInit
+     00a2h              _secCntr
+     00a3h              _counter_128Msec
+     00a4h              __250msecCntr
+     00a5h              _irData
+     00a9h              _toggle
+     00aah              _tmindex
+     00abh              _FanSpeedValue
+     00adh              _TriacState
+     00aeh              _TriacCheckState
+     00afh              _gMode
+     00b0h              _gDownCounterValue
+     00b1h              _speed_temp
+     00b3h              _FanSpeedState
+     00b5h              _TriacTimeoutFlag
+     00b7h              _timerCount
+     00b9h              _TRIAC_3_TIMEOUT_COUNTER
+     00bah              _TRIAC_2_TIMEOUT_COUNTER
+     00bbh              _TRIAC_1_TIMEOUT_COUNTER
+     00bch              _LED_COUNTER
+     00bdh              _keyPressIndiVal
+     00c1h              r324
+     00c2h              r424
+     00fbh              _INT1_ISR
+     0162h              _getIrRemotedata
+     0180h              _tmArry
+     01c0h              _irKeyProcess
+     0317h              _EEReadChar
+     032dh              _EEWriteChar
+     034ah              _turnOn_triac
+     035fh              _turnoff_triac
+     0380h              _checkSpeedChange
+     03e0h              _timer_128mSec
+     03eeh              _secDownCounter
+     03fch              __250msecDownCounter
+     0080h[0]           _irDatavalid
+     0081h[0]           _powerBtn
+     0081h[1]           __250MSEC_LOOP_FLG
+     0081h[2]           __250MSEC_TGL_FLG
+     040ah              _app
+     0081h[3]           _SEC_LOOP_FLG
+     0569h              __DELAYY5_isr00
+     056ah              __DELAYY4_isr00
+     056bh              __DELAYY3_isr00
+     056ch              __DELAYY2_isr00
+     056dh              __DELAYY1_isr00
+     056eh              __DELAYY0_isr00
+     0577h              _builtin_holtek_udivmodqi4_isr00
+
+
+ROM Usage Statistics
+     Size      Used     Percentage
+     1000h     058ah    34%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     0043h    52%
+     01h       0080h     0080h    100%
+     Total     0100h     00c3h    76%
+
+Use Stack Count
+_INT0_ISR: 0
+_timer_i0: 0
+_main: 3
+_INT1_ISR: 0
+_writeDataFlashInt: 1
+_readDataFlashInt: 1
+_EERROM_eraseChip: 1
+_swap: 1
+_uart1_put_value: 4
+_timer_128mSec: 0
+_secUpCounter: 1
+
+Call Tree
+    @dummy4
+        _INT0_ISR (0)
+    @dummy16
+        _timer_i0 (0)
+    @dummy
+        _main (0)
+            _sysInit (1)
+            _app (1)
+                _builtin_holtek_delay_isr00 (2)
+                _EEReadChar (2)
+                _SysInit (2)
+                _builtin_holtek_divmodqi4_isr00 (2)
+                _getIrRemotedata (2)
+                    _Crom2Prom (3)
+                    _Crom2Prom (3)
+                __250msecDownCounter (2)
+                    _Crom2Prom (3)
+                _secDownCounter (2)
+                    _Crom2Prom (3)
+                _irKeyProcess (2)
+                    _EEWriteChar (3)
+                    _EEReadChar (3)
+                _checkSpeedChange (2)
+                _turnoff_triac (2)
+                _turnOn_triac (2)
+                _EEWriteChar (2)
+    @dummy36
+        _INT1_ISR (0)
+    _writeDataFlashInt
+        _EEWriteChar (0)
+    _readDataFlashInt
+        _EEReadChar (0)
+    _EERROM_eraseChip
+        _EEPROM_Erase_page (0)
+    _swap
+        _Crom2Prom (0)
+    _uart1_put_value
+        _Crom2Prom (0)
+        _putchar (0)
+        _putUart1Int (0)
+            _itoa (1)
+                _builtin_holtek_divmodsi4_isr00 (2)
+                _reverse (2)
+                    _Crom2Prom (3)
+            _Crom2Prom (1)
+            _putchar (1)
+    @dummy28
+        _timer_128mSec (0)
+    _secUpCounter
+        _Crom2Prom (0)
+
+HLINK: Program entry point at section '@code' (address 0) of file 'd:\projects\bldc fan\remote fan final to production\global(longway)1\REMOTE FAN.OBJ'
+
+Total 0 error(s), Total 0 Warning(s)
